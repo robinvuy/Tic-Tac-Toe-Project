@@ -63,6 +63,17 @@ export default function Game() {
     setXIsNext(!xIsNext);
   }
 
+  function jumpTo(nextMove) {
+
+  }
+
+  const moves = history.map((squares, move) => {
+    let description;
+    if (move > 0) {
+      description = "Go to move "
+    }
+  })
+
   return (
     <div className="game">
       <div className="game-board">
