@@ -85,6 +85,8 @@ export default function Game() {
 
   return (
     <div className="game">
+      <h1>The Greatest Tic Tac Toe Game Ever !</h1>
+      {/* <h2>Good Luck & May The Odds Ever Be In Your Favour</h2> */}
       <div className="game-board">
         <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
       </div>
