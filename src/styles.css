@@ -22,7 +22,7 @@ h1 {
   border-color: rgb(141, 7, 7);
   height: 50px;
   text-align: center; /* Center-align the text */
-  margin-top: 30px; /* Add some top margin for spacing */
+  /* margin-top: 30px;  */
   margin-bottom: 180px;
   color: #b42e10; /* Set the text color to your preferred color */
 }
@@ -30,8 +30,13 @@ h1 {
 
 
 h2 {
-  margin-top: 0;
+  margin-top: 40px;
+  margin-left: -450px;
+  margin-bottom: 50px;
   font-size: 20px;
+  text-align: center;
+  height: 200px;
+  color: #4b10ca;
 }
 
 h3 {

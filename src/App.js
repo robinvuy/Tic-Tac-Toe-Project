@@ -27,6 +27,8 @@ function Board({ xIsNext, squares, onPlay }) {
   let status;
   if (winner) {
     status ="Winner: " + winner;
+  } else if (squares.every((square) => square !== null)) {
+    status = "It's a Draw"
   } else {
     status = "Next player: " + (xIsNext ? "X" : "O");
   }
@@ -86,7 +88,7 @@ export default function Game() {
   return (
     <div className="game">
       <h1>The Greatest Tic Tac Toe Game Ever !</h1>
-      {/* <h2>Good Luck & May The Odds Ever Be In Your Favour</h2> */}
+      <h2>Good Luck & May The Odds Be Ever In Your Favour</h2>
       <div className="game-board">
         <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
       </div>
@@ -114,7 +116,6 @@ function calculateWinner(squares) {
       return squares[a];
     }
   }
-
   return null;
 }
 
