@@ -1,6 +1,8 @@
+Tic-Tac-Toe made with React JS
 
-![Demo Screenshot](https://github.com/robinvuy/Tic-Tac-Toe-Project/assets/122701848/d08aea9d-36e4-4d63-8a84-7a2c64af7c4e)
+![screenshot 3](https://github.com/robinvuy/Tic-Tac-Toe-Project/assets/122701848/544d29f3-e8f3-4d1a-9c68-0b5e63151670)
 
+Link for demo : https://youtu.be/k8dsBgVaAzg
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
