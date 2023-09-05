@@ -1,4 +1,5 @@
-![Uploading image.png…]()
+
+![Demo Screenshot](https://github.com/robinvuy/Tic-Tac-Toe-Project/assets/122701848/d08aea9d-36e4-4d63-8a84-7a2c64af7c4e)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
